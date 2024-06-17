@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMesh", "src\OneMesh.csproj", "{FAD59D96-598B-4DB4-925B-B103BE35D1DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMesh.Dependencies", "dependencies\OneMesh.Dependencies.csproj", "{3909F8BA-6536-427F-97A3-D77C0B5019CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMesh.Tests", "test\OneMesh.Tests.csproj", "{DDC7E0B0-3BAD-4DBC-AC60-4F4FCF4E8E6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD59D96-598B-4DB4-925B-B103BE35D1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD59D96-598B-4DB4-925B-B103BE35D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD59D96-598B-4DB4-925B-B103BE35D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD59D96-598B-4DB4-925B-B103BE35D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3909F8BA-6536-427F-97A3-D77C0B5019CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3909F8BA-6536-427F-97A3-D77C0B5019CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3909F8BA-6536-427F-97A3-D77C0B5019CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3909F8BA-6536-427F-97A3-D77C0B5019CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC7E0B0-3BAD-4DBC-AC60-4F4FCF4E8E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC7E0B0-3BAD-4DBC-AC60-4F4FCF4E8E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC7E0B0-3BAD-4DBC-AC60-4F4FCF4E8E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC7E0B0-3BAD-4DBC-AC60-4F4FCF4E8E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
